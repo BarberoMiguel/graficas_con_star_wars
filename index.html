@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+ 
+</head>
+<body>
+    <main>
+        <img src="./assets/star-wars-scaled.jpg" alt="Star-Wars" id="star">
+        <section id="graficos">
+            <h2>Filmografía:</h2>
+            <div class="ct-chart-container">
+                <div class="ct-chart ct-perfect-fourth" id="chart1"></div>
+                <div class="x-axis-label">Películas</div>
+                <div class="y-axis-label">Años de publicación</div>
+            </div>
+            
+            <h2>Personajes:</h2>
+            <div class="ct-chart-container">
+                <div class="ct-chart ct-perfect-fourth" id="chart2"></div>
+                <div class="x-axis-label">Personajes</div>
+                <div class="y-axis-label">Películas en las que aparece</div>
+            </div>
+            
+        </section>
+        
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
